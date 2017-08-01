@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jevons.ward_1.MainActivity">
+
+    <Switch
+        android:id="@+id/switch_a"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="38dp" />
+
+    <Switch
+        android:id="@+id/switch_g"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Gyroscope"
+        app:layout_constraintTop_toBottomOf="@+id/switch_a"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Switch
+        android:id="@+id/switch_m"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Magnetometer"
+        app:layout_constraintTop_toBottomOf="@+id/switch_g"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Switch
+        android:id="@+id/switch_c"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Compass"
+        app:layout_constraintTop_toBottomOf="@+id/switch_m"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="NEXT"
+        app:layout_constraintTop_toBottomOf="@+id/switch_c"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
