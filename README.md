@@ -8,5 +8,5 @@ into a standard text file for data analysis further on.
 
 To learn more about this project, please refer to my research paper [here](https://www.google.com).
 
-![Application Demonstration](https://github.com/jw4106/Ward_1/blob/master/demo.png)
+![Application Demonstration](https://github.com/jw4106/Ward_1/blob/master/demo.png = 288x512)
 
