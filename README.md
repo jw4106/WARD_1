@@ -6,7 +6,7 @@ Accelerometer, Gyroscope and Magnetometer sensors. Movements all have different 
 three sensors (utilization of the X,Y, and Z axis). This application records data every 38 milliseconds and records the data
 into a standard text file for data analysis further on. 
 
-To learn more about this project, please refer to my research paper [Here](https://www.google.com).
+To learn more about this project, please refer to my research paper [here](https://www.google.com).
 
-![Application Demonstration](https://github.com/jw4106/Ward_1/demo.png)
+![Application Demonstration](https://github.com/jw4106/Ward_1/blob/master/demo.png)
 
